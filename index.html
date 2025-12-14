@@ -1,11 +1,175 @@
 <!doctype html>
-<html lang="vi">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>DIENTU.VN – AI & SoC Lab</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DIENTU.VN | Chip Design & AI Lab</title>
+
+<style>
+:root{
+  --main:#0a4d8c;
+  --accent:#00aeef;
+  --bg:#f7f9fc;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto;
+  background:var(--bg);
+  color:#222;
+}
+header{
+  background:#fff;
+  border-bottom:1px solid #e5e7eb;
+}
+nav{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:16px 24px;
+}
+nav h1{
+  margin:0;
+  font-size:22px;
+  color:var(--main);
+}
+nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:#333;
+  font-weight:500;
+}
+nav a:hover{color:var(--accent)}
+
+.hero{
+  max-width:1200px;
+  margin:60px auto;
+  padding:0 24px;
+}
+.hero h2{
+  font-size:42px;
+  margin-bottom:10px;
+}
+.hero p{
+  font-size:18px;
+  color:#555;
+  max-width:700px;
+}
+
+.section{
+  max-width:1200px;
+  margin:60px auto;
+  padding:0 24px;
+}
+.section h3{
+  font-size:28px;
+  border-left:5px solid var(--main);
+  padding-left:12px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:24px;
+  margin-top:24px;
+}
+.card{
+  background:#fff;
+  border-radius:14px;
+  padding:24px;
+  box-shadow:0 6px 20px rgba(0,0,0,.05);
+}
+.card h4{margin-top:0;color:var(--main)}
+
+footer{
+  background:#111827;
+  color:#cbd5e1;
+  padding:32px;
+  text-align:center;
+  margin-top:80px;
+}
+</style>
 </head>
+
 <body>
-  <h1>DIENTU.VN</h1>
-  <p>AI • FPGA • SoC • Chip Design</p>
+
+<header>
+  <nav>
+    <h1>DIENTU.VN Lab</h1>
+    <div>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#people">People</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Chip Design & AI Research Lab</h2>
+  <p>
+    Research and development in FPGA, SoC, ASIC, Embedded AI,
+    and Digital IC Design.  
+    Bridging education, industry, and real-world silicon.
+  </p>
+</section>
+
+<section id="about" class="section">
+  <h3>About the Lab</h3>
+  <p>
+    DIENTU.VN Lab focuses on practical chip design education and
+    applied research: from RTL design to FPGA prototyping and
+    ASIC-ready architectures.
+  </p>
+</section>
+
+<section id="research" class="section">
+  <h3>Research Areas</h3>
+  <div class="grid">
+    <div class="card"><h4>FPGA Systems</h4><p>Zynq, PYNQ, AXI, HDMI, Camera Pipeline</p></div>
+    <div class="card"><h4>SoC Design</h4><p>ARM-based SoC, APB/AXI, Peripherals</p></div>
+    <div class="card"><h4>ASIC & RTL</h4><p>Verilog, Timing, Synthesis, ASIC Flow</p></div>
+    <div class="card"><h4>Embedded AI</h4><p>Vision, Edge AI, Smart Devices</p></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h3>Selected Projects</h3>
+  <div class="grid">
+    <div class="card"><h4>HDMI Camera System</h4><p>OV2640 → FPGA → HDMI 720p</p></div>
+    <div class="card"><h4>SoC LCD Controller</h4><p>APB LCD, Custom IP Design</p></div>
+    <div class="card"><h4>AI Edge Camera</h4><p>ESP32-CAM + FPGA acceleration</p></div>
+  </div>
+</section>
+
+<section id="people" class="section">
+  <h3>People</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>Nguyễn Vũ</h4>
+      <p>Founder / Chip Design Engineer</p>
+    </div>
+    <div class="card">
+      <h4>Students & Contributors</h4>
+      <p>FPGA • SoC • IC Design</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h3>Contact</h3>
+  <p>
+    Website: https://dientu.vn  
+    <br>Email: contact@dientu.vn
+  </p>
+</section>
+
+<footer>
+  © 2025 DIENTU.VN – Chip Design & AI Lab
+</footer>
+
 </body>
 </html>
