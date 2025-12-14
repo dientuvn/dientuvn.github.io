@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>People | DIENTU.VN Lab</title>
+<style>
+:root{--main:#0a4d8c;--bg:#f7f9fc}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui;background:var(--bg);color:#111}
+header{background:#fff;border-bottom:1px solid #e5e7eb}
+nav{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:16px 24px}
+nav a{margin-left:16px;text-decoration:none;color:#333;font-weight:600}
+main{max-width:1100px;margin:32px auto;padding:0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:#fff;border-radius:14px;padding:18px;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+.avatar{width:72px;height:72px;border-radius:50%;object-fit:cover;border:3px solid #fff;box-shadow:0 6px 20px rgba(0,0,0,.10)}
+.role{color:#444}
+.links a{text-decoration:none;margin-right:12px;color:var(--main);font-weight:700}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div style="font-weight:800;color:var(--main)">DIENTU.VN Lab</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html">People</a>
+      <a href="courses.html">Courses</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1>People</h1>
+  <p>Thêm ảnh vào <code>assets/people/</code> và sửa profile theo thật.</p>
+
+  <div class="grid">
+    <div class="card">
+      <img class="avatar" src="assets/people/nguyenvu.jpg" alt="Nguyen Vu">
+      <h3>Nguyễn Vũ</h3>
+      <div class="role">Founder • Chip Design • FPGA/SoC</div>
+      <p>RTL design, video pipeline, SoC peripherals, embedded AI systems.</p>
+      <div class="links">
+        <a href="https://dientu.vn">Website</a>
+        <a href="mailto:contact@dientu.vn">Email</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="avatar" src="assets/people/member1.jpg" alt="Member">
+      <h3>Student / Contributor</h3>
+      <div class="role">FPGA • Verification • Embedded</div>
+      <p>Join projects: HDMI, camera, AXI/APB IP, ASIC learning path.</p>
+      <div class="links">
+        <a href="mailto:contact@dientu.vn">Join</a>
+      </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>
