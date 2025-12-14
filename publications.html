@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Publications | DIENTU.VN Lab</title>
+<style>
+:root{--main:#0a4d8c;--bg:#f7f9fc}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui;background:var(--bg);color:#111}
+header{background:#fff;border-bottom:1px solid #e5e7eb}
+nav{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:16px 24px}
+nav a{margin-left:16px;text-decoration:none;color:#333;font-weight:600}
+main{max-width:1100px;margin:32px auto;padding:0 24px}
+.card{background:#fff;border-radius:14px;padding:18px;margin:14px 0;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+.tag{display:inline-block;padding:3px 10px;border-radius:999px;background:#e8f4ff;color:var(--main);font-size:12px;font-weight:700}
+small{color:#555}
+code{background:#f1f5f9;padding:2px 6px;border-radius:8px}
+.btn{display:inline-block;margin-top:10px;background:var(--main);color:#fff;padding:8px 12px;border-radius:10px;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div style="font-weight:800;color:var(--main)">DIENTU.VN Lab</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html">People</a>
+      <a href="courses.html">Courses</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1>Publications</h1>
+  <p>Paper list + PDF + BibTeX (bạn thay nội dung thật sau).</p>
+
+  <div class="card">
+    <span class="tag">FPGA / Video</span>
+    <h3>OV2640-to-HDMI 720p Pipeline on Zynq FPGA</h3>
+    <small>Nguyễn Vũ, DIENTU.VN Lab — 2025</small>
+    <p>Real-time camera capture, buffering, and HDMI output with FPGA timing + I2C init.</p>
+    <a class="btn" href="assets/papers/ov2640_hdmi_720p.pdf">Download PDF</a>
+    <p><b>BibTeX</b></p>
+    <pre><code>@article{nguyenvu2025ov2640,
+  title={OV2640-to-HDMI 720p Pipeline on Zynq FPGA},
+  author={Nguyen, Vu},
+  journal={DIENTU.VN Lab Technical Report},
+  year={2025}
+}</code></pre>
+  </div>
+
+  <div class="card">
+    <span class="tag">SoC / Bus</span>
+    <h3>APB LCD Controller IP for Embedded SoC Training</h3>
+    <small>Nguyễn Vũ, DIENTU.VN Lab — 2025</small>
+    <p>APB peripheral design with LCD 4-bit interface and register mapping.</p>
+    <a class="btn" href="assets/papers/apb_lcd_ip.pdf">Download PDF</a>
+    <p><b>BibTeX</b></p>
+    <pre><code>@article{nguyenvu2025apb,
+  title={APB LCD Controller IP for Embedded SoC Training},
+  author={Nguyen, Vu},
+  journal={DIENTU.VN Lab Technical Report},
+  year={2025}
+}</code></pre>
+  </div>
+
+  <p><i>Tip:</i> PDF để trong <code>assets/papers/</code>. Nếu chưa có PDF thì cứ để link trống hoặc xoá nút Download.</p>
+</main>
+</body>
+</html>
