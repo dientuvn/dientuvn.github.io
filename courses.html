@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Courses | DIENTU.VN Lab</title>
+<style>
+:root{--main:#0a4d8c;--bg:#f7f9fc}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui;background:var(--bg);color:#111}
+header{background:#fff;border-bottom:1px solid #e5e7eb}
+nav{max-width:1100px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:16px 24px}
+nav a{margin-left:16px;text-decoration:none;color:#333;font-weight:600}
+main{max-width:1100px;margin:32px auto;padding:0 24px}
+.card{background:#fff;border-radius:14px;padding:18px;margin:14px 0;box-shadow:0 6px 20px rgba(0,0,0,.05)}
+h3{color:var(--main);margin-top:0}
+ul{margin:8px 0 0 18px}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div style="font-weight:800;color:var(--main)">DIENTU.VN Lab</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html">People</a>
+      <a href="courses.html">Courses</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1>Course / FPGA Training</h1>
+  <p>Lộ trình học thực chiến: RTL → FPGA → SoC → ASIC.</p>
+
+  <div class="card">
+    <h3>Course 1: Verilog RTL Fundamentals</h3>
+    <ul>
+      <li>Combinational/Sequential logic</li>
+      <li>FSM design</li>
+      <li>Testbench + simulation mindset</li>
+      <li>Timing basics</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Course 2: FPGA System on PYNQ-Z2</h3>
+    <ul>
+      <li>Clocking, constraints (XDC)</li>
+      <li>AXI-lite registers, custom IP</li>
+      <li>HDMI timing + video pipeline</li>
+      <li>Camera (OV2640) I2C init + capture</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Course 3: SoC / Bus / Peripheral Design</h3>
+    <ul>
+      <li>APB/AXI protocol</li>
+      <li>Register map, driver concept</li>
+      <li>LCD/IO peripherals</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Course 4: ASIC Ready Flow (Overview)</h3>
+    <ul>
+      <li>Synthesis constraints</li>
+      <li>CDC / lint / STA mindset</li>
+      <li>Physical awareness</li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>
